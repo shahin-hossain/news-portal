@@ -6,8 +6,9 @@ body{
     padding: 30px;
     font-family: 'Roboto';    
 }
-.container{
-    
+#container{
+    width: 1272px;
+    margin: 0 auto;
 }
 /*Head Section Start*/
 .nav-2{
@@ -155,40 +156,40 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-section{
-    padding: 30px;
+.content-1{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 .content-img-1{
     width: 244px;
     height: 300px;
-    float: left;
+    
     background-image: url(images/image-1.png);
 }
 .content-img-2{
     width: 244px;
     height: 300px;
-    float: left;
+    
     background-image: url(images/image-2.png);
 }
 .content-img-3{
     width: 244px;
     height: 300px;
-    float: left;
+    
     background-image: url(images/image-3.png);
 }
 .content-img-4{
     width: 244px;
     height: 300px;
-    float: left;
+    
     background-image: url(images/imgae-4.png);
 }
 .news-para{
     width: 886px;
-    height: 300px;
     padding: 20px;
     float: right;
     box-sizing: border-box;
-    position: relative;
 }
 .news-para h1{
     font-size: 20px;
@@ -209,17 +210,19 @@ main{
 main > div{
     padding: 20px;
 }
+.news-content{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 .news-bio{
     height: 50px;
-    
-    position: absolute;
-    top: 100px;
-    position: relative;
+    display: flex;
+    padding: 20px;
 }
 .writer{
-    
     width: 200px;
-   position: absolute;
 }
 .writer img{
     float: left;
@@ -234,25 +237,20 @@ main > div{
     color: #858585;
 }
 .Views{
-    position: absolute;
     background-repeat: no-repeat;
     width: 200px;
-    left: 280px;
-    top: 10px;
+    padding-left: 80px;
+    padding-top: 10px;
 }
 .Views img{
-   float: left;
+    float: left;
    padding-right: 10px;
 }
 .review{
-    position: absolute;
-    left: 500px;
-    top: 10px;
+    padding-top: 10px;
 }
 .read-more{
-    position: absolute;
-    left: 760px;
-    
+    padding-left: 150px;
     color: #5D5FEF;
     text-decoration: none;
     font-size: 25px;
